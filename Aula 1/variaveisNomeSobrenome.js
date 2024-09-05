@@ -4,6 +4,6 @@ Concatene-as em uma terceira variável chamada "nomeCompleto" e imprima ao usuá
 var nome = "Maria Eduarda";
 var sobrenome = "Silva";
 
-nomeCompleto = nome + " " + sobrenome;
+nomeCompleto = nome + " " + sobrenome; /*as aspas duplas é a formatação para ter espaços */
 
 console.log("Meu nome é", nomeCompleto)
