@@ -15,7 +15,7 @@ if (valorSaque <= saldoDisponivel) {
 }
 
 else {
-    document.write("O valor é maior que o saldo.")
+    document.write("O valor é maior que o saldo")
 }
 
 document.write("Saldo disponível na conta é: ", saldoDisponivel)
