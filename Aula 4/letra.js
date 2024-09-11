@@ -3,7 +3,7 @@ input é vogal ou consoante. */
 
 var letra = prompt("Digite uma letra:")
 
-if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u'){
+if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u'){ /* || - significa OR e == significa IGUAL */
     document.write("A letra é uma vogal")
 }
     else{
