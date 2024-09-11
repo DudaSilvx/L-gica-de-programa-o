@@ -1,10 +1,10 @@
-var nomeCarro = 'onix';
+var nomeCarro = 'Nissan';
 function carro(){
-    var nomeCarro = 'fiesta';
+    var nomeCarro = 'March';
     console.log(nomeCarro);
 }
 function corDoCarro(){
-    var cor ='preto';
+    var cor ='prata';
     console.log(cor);
 }
 corDoCarro();
