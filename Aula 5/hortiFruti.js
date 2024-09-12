@@ -8,7 +8,7 @@ três opções e verifique o console do seu navegador. Crie também
 um default, que retornará uma mensagem de erro no console. */
 
 fruta = "melancia";
-    switch (fruta) {
+    switch (fruta) { /* switch - outra alternativa para o if */
 
         case "maçã":
             msg = "Não vendemos esta fruta aqui.";
@@ -22,7 +22,7 @@ fruta = "melancia";
             msg = "Aqui está, são 3 reais o quilo.";
             break;
 
-        default:
+        default: /* default - está chamando a tela base */
             msg = "Erro"
         }
     document.write(msg)
