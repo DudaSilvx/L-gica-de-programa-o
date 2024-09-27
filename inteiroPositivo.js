@@ -6,7 +6,10 @@ let numero = parseInt(prompt("Digite um número"))
 
 let regressiva = 10;
 
-while (regressiva > numero){
+if (regressiva > numero){
     console.log(regressiva--)
 }
 console.log(numero)
+/* else(numero > regressiva){
+    console.log("Erro")   
+} */
